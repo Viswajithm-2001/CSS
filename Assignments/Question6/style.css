@@ -1,0 +1,14 @@
+.fa{
+    font-size: 30px;
+    display: block;
+    margin: 20px;
+}
+.container{
+    display: flex;
+}
+.text{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-top: 10px;
+}

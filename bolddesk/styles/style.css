@@ -1,0 +1,345 @@
+body {
+    margin: 0px;
+    background-color: rgb(210, 239, 249);
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+    position: fixed;
+}
+
+.icon img {
+    height: 50px;
+    padding: 10px;
+}
+
+.icon img:hover {
+    cursor: pointer;
+}
+
+.menubar {
+    margin-top: 10px;
+    display: flex;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.menubar span {
+    padding: 10px;
+}
+
+.menubar span:hover {
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-color: #fff;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: lightblue;
+  }
+
+.navbuttons {
+    margin-top: 15px;
+}
+
+.navbuttons button {
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#freetrial {
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+
+#freetrial:hover {
+    background-color: rgb(255, 119, 0);
+    cursor: pointer;
+}
+
+#freedemo {
+    border: 2px solid orangered;
+    color: orangered;
+    background-color: #fff;
+}
+
+#freedemo:hover {
+    background-color: rgba(255, 0, 17, 0.362);
+    cursor: pointer;
+}
+
+.getintouch {
+    padding: 5% 10%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
+.getintouch h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #00394e;
+    margin-bottom: 0px;
+}
+
+.getintouch p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00394e;
+    font-weight: 700;
+}
+
+.totalformandboxes {
+    margin: 10% 20%;
+}
+
+.formsandboxes {
+    height: 800px;
+    width: 800px;
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.boxes {
+    width: 50%;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #c3c3c3;
+    margin: 30px 0px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.contactsales {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    width: 10%;
+}
+
+.description {
+    font-family: sans-serif;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width: fit-content;
+}
+
+.description a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.contactsalesh1 h1 {
+    margin-bottom: 0px;
+    border: none;
+}
+
+.textmsg p {
+    text-align: start;
+}
+
+.email {
+    margin: 10px 0px;
+}
+
+.tollfree {
+    margin: 10px 0px;
+}
+
+.phone {
+    margin: 10px 0px;
+    margin-bottom: 30px;
+}
+
+.technicalsupport {
+    display: flex;
+    flex-direction: row;
+}
+.technicalsupport:hover{
+    box-shadow: 10px 10px grey;
+}
+
+.contactsupport {
+    color: orangered;
+}
+
+.chatwithus {
+    display: flex;
+    flex-direction: row;
+}
+.chatwithus:hover{
+    box-shadow: 10px 10px grey;
+}
+.startaconvo {
+    color: orangered;
+}
+
+.forms {
+    width: 50%;
+}
+
+.boxmodel {
+    font-family: sans-serif;
+    background-color: #fff;
+    padding: 50px;
+    margin: 0px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sendmsgh1 {
+    text-align: center;
+    align-content: center;
+    font-size: 12px;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.form input,
+.form label {
+    margin: 10px;
+    height: 30px;
+    color: grey;
+
+}
+
+.form input,
+.form textarea {
+    font-weight: 550;
+    border-radius: 3px;
+    margin: 10px;
+    border: 1px solid grey;
+}
+
+.form button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin: 10px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.form a {
+    text-decoration: none;
+    color: #0051ff;
+}
+
+.officelocation {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 240, 240);
+    align-items: center;
+
+}
+.officelocation .boxmodel{
+    width: 100%;
+}
+
+.officeh1 {
+    text-align: center;
+    font-size: 30px;
+    color: #00394e;
+    border: none;
+}
+.officeaddresses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.boxaddress{
+    height: 200px;
+    width: 500px;
+    margin: 20px 30px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #fff;
+    
+}
+.officelocation img{
+    height: 100px;
+    border-radius: 10px;
+    text-align: start;
+}
+.officelocation .address{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.boxaddress a{
+    text-decoration: none;
+    color: black;
+}

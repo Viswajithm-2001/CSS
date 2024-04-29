@@ -1,0 +1,21 @@
+.container{
+    margin: 10%;
+    border: 1px;
+    box-shadow: 2px 2px 10px 1px #a2a0a0;
+    width: fit-content;
+}
+
+.image img{
+    height: 300px;
+    width: 500px;
+}
+.text{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.textbox{
+    padding: 25px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}

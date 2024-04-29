@@ -1,0 +1,141 @@
+body{
+    background-color: #5B7596;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    height: 350px;
+    margin: 10% auto;
+    width: 640px;
+}
+.leftcontainer{
+    height: 310px;
+    top: 20px;
+    position: relative;
+    background-color: white;
+    width: 50%;
+    display: block;
+    justify-content: center;
+    
+}
+.traininghub{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 2.5rem 2rem;
+    
+}
+.syncfusions{
+    font-size: 30px; 
+    font-weight: 600;
+    color: #2b347b;
+}
+.training{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2b347b;
+}
+.platform{
+    color: grey;
+    margin: 2.5rem;
+    font-size: 14px;
+    
+}
+.textmsg{
+    display: block;
+}
+.msg{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: #7d7c7c;
+    font-family: "Roboto", sans-serif;
+
+}
+.author{
+    margin: 1rem;
+    text-align: center;
+    color: #5c5b5b;
+    
+}
+.rightcontainer{
+    display: flex;
+    background-color: #17355e;
+    width: 50%;
+}
+.subcontainer{
+    margin: 30px 50px;
+    width: 100%;
+}
+.email{
+    margin-bottom: 1rem;
+}
+.text{
+    color: darkgrey;
+    margin: 2px;  
+}
+input{
+    padding: 7px;
+    font-size: medium;
+    border-radius: 2px;
+    border: rgb(78, 78, 234);
+    color: black;
+    border-width: 100px;
+}
+.signin{
+    margin-top: 10px;
+}
+.signin button{
+    width: 95%;
+    font-size: large;
+    background-color: #17355e;
+    color: #bababa;
+    border: 2px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+}
+.signin button:hover{
+    background-color: grey;
+    color: #17355e;
+    cursor: pointer;
+}
+.forgotpwd{
+    margin-top: 20px;
+}
+.forgotpwd a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #bababa;
+}
+.forgotpwd a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.microsoft{
+    display: flex;
+    margin-top: 20px;
+    width: 95%;
+    border: 2px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.microsoft button{
+    font-size: 15px;
+    margin: 1px;
+    border: 0px;
+    background-color: #17355e;
+    color: #bababa;
+}
+.microsoft img{
+    height: 25px;
+    width: 25px;
+}
+.microsoft button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width : 700px){
+    .container{flex-direction: column;}
+    .leftcontainer,.rightcontainer{max-width: 50%; margin: auto 0px;}
+}
